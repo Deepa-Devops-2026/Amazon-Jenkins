@@ -8,7 +8,7 @@ pipeline {
 
         stage('pull scm git ') {
             steps {
-                git branch: 'main', url: 'https://github.com/PraveenKuber/Amazon-Jenkins.git'
+                git branch: 'main', url: 'https://github.com/Deepa-Devops-2026/Amazon-Jenkins.git'
             }
         }
         stage('compile ') {
